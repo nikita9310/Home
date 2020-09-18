@@ -10,17 +10,15 @@ public class gipotiza {
             else
                 number = (number*3+1)/2;
             System.out.println(number);
-
-
         }
         return true;
     }
+    
+    
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Введите число ");
         int number = scanner.nextInt();
         checkGipotiza(number);
-
-
     }
 }
